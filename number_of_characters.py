@@ -2,4 +2,4 @@
 
 name = input("Enter your full name: ")
 
-print(len(name.strip(" ")))
+print(len(name.split().join()))
