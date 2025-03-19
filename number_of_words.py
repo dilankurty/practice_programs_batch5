@@ -2,4 +2,4 @@
 
 statement = input("Enter a statement: ")
 
-print(len(statement))
+print(len(statement.split()))
