@@ -2,4 +2,4 @@
 
 name = input("Enter your full name: ")
 
-print(name.title().strip())
+print(name.title().replace(" ", ""))
