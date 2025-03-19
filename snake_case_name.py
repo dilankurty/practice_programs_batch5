@@ -2,4 +2,4 @@
 
 name = input("Enter your full name: ")
 
-print(name.lower().replace(" ", "_"))
+print("_".join(name.lower().split()))
