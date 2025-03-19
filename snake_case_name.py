@@ -2,4 +2,4 @@
 
 name = input("Enter your full name: ")
 
-print(name.lower())
+print(name.lower().replace(" ", "_"))
