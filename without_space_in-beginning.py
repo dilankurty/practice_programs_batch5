@@ -2,4 +2,4 @@
 
 name = input("Enter your full name: ")
 
-print(name)
+print(name.strip())
